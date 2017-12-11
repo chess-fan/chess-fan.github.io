@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to ChessCoin</title>
+    <meta name="description" content="Welcome to ChessCoin">
+    <style>
+        /* BASE */
+
+        html { font-size:100%; }
+        body { padding: 40px 0 20px; margin: 0; font: 13px/1.333 "lucida grande", tahoma, sans-serif; color: #333; background: #fff;}
+
+        a, a:visited { color: #980905; }
+        a:hover, a:focus, a:active { text-decoration: none; }
+
+        h1 { margin: 0 0 0.5em; font-size: 28px;  font-weight: normal; }
+        h2 { margin: 0 0 0.75em; font-size: 15px; }
+        p { margin: 0 0 1.333em; }
+        em { font-style: italic; }
+        table { border-collapse: separate; border-spacing: 0; margin:  0; vertical-align: middle; }
+        th { font-weight: bold; }
+        th, td { padding: 5px 25px 5px 5px; text-align: left; vertical-align: middle; }
+        pre, code { font-family: monospace, sans-serif; font-size: 1em; color:#080; }
+        pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+        ul { list-style: square; margin: 1em 0 1em 0px; padding: 0; }
+
+        /* TEMPLATE */
+
+        .container { position:relative; overflow:hidden; max-width: 600px; _width: 600px; padding: 40px 60px; border: 1px solid #ccc; margin: 0 auto; background: #fff; }
+
+        .container pre,
+        .container .prettyprint { padding: 0; border: 0; margin: 0 0 20px; background: #fff; }
+
+        .ribbon { position: absolute; top: -1px; right: -1px; opacity: 0.9; }
+        .ribbon:hover, .ribbon:focus, .ribbon:active { opacity: 1; }
+        .ribbon img { display: block; border: 0; }
+
+        .header { padding-right: 80px; }
+        .header p { font-size: 18px; color: #808080; }
+
+        .section { margin: 40px 0 20px; }
+
+        .example { padding: 20px; border: 1px solid #ccc; margin: 10px -20px 20px; }
+        .example p { margin: 15px 0 0; }
+        .example p:first-child { margin: 0; }
+
+        .footer { margin: 20px 0 50px; font-size: 11px; color: #666; text-align: center; }
+        .footer a { color: #666;}
+
+        /* SMALL */
+
+        @media (max-width: 500px) {
+            body { padding: 0; }
+            .container { padding: 20px 30px; }
+            .footer { margin-bottom: 20px; }
+        }
+    </style>
+
+
+
+    <!-- prettyify -->
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/google/code-prettify/master/src/prettify.css">
+    <script src="https://raw.githubusercontent.com/google/code-prettify/master/src/prettify.js"></script>
+</head>
+
+<body onload="prettyPrint()">
+
+<div class="container">
+    <a class="ribbon" href="https://github.com/chess-fan/MCT" target="_blank"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+    <div class="header">
+        <h1>Welcome to ChessCoin!</h1>
+    </div>
+
+    <div class="section">
+        <h2>About</h2>
+        <p>Our coin started in 2016.<br>It uses the POS (proof of stake) mechanism to create blocks. The annual staking rate is 32%.<br>
+	ChessCoin allows instant transaction processing with 64 second blocks, 2 hours minimum stake time and 32 blocks coin maturity.
+
+	<center><img src="images/chesscoin2.png" alt="ChessCoin"></center>
+
+	</p>
+
+        <div class="example">
+            <pre class="prettyprint"><code>
+		<a href="#download">Download wallet</a><br>
+		<a href="#FAQ">FAQ</a><br>
+		<a href="#play">Tournaments - win prizes</a><br>
+		<a href="https://bitcointalk.org/index.php?topic=1510517.0">BitcoinTalk</a><br>
+		<a href="https://github.com/chess-fan/MCT">Task list</a>
+	</code></pre>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 id="download">Download the wallet software</h2>
+
+	<br>Get the pre-compiled wallet binaries for your OS:
+        <ul>
+            <li>Windows: <a href="download/chesscoin-qt-windows.zip">chesscoin-qt-windows.zip</a> (12.5 MB)
+            <li>iOS: <a href="download/ChessCoin-Qt.dmg">ChessCoin-Qt.dmg</a> (14.7 MB)
+            <li>linux: <a href="download/chesscoin-qt-linux.tar.gz">chesscoin-qt-linux.tar.gz</a> (5.6 MB)
+        </ul><br>
+
+	or compile yourself:
+        <ul>
+            <li><a href="https://github.com/coinforchess/chesscoin">source code</a> (<a href="https://github.com/COINFORCHESS/ChessCoin/archive/master.zip">zip archive</a>)
+        </ul>
+
+	other tools:
+        <ul>
+            <li>paper wallet: <a href="download/Chesscoinpaperwallet.rar">Chesscoinpaperwallet.rar</a> (1.7 MB)
+        </ul>
+
+    </div>
+
+	<br>
+
+    <div class="section">
+        <h2 id="FAQ">FAQ</h2>
+	<br>
+
+        <h4>How to get your wallet started?</h4>
+        <p>
+	1. Copy the <a href="download/chesscoin.conf">chesscoin.conf</a> file into the correct directory, e.g.
+        <ul>
+            <li>Windows: C:\Users\*.*\AppData\Roaming\ChessCoin
+            <li>Linux: /home/yourOwnUserHere/.chesscoin
+        </ul>
+	2. and then start your wallet.
+	</p><br>
+
+
+        <h4 id="play">Join our tournaments - with prizes</h4>
+        <p>
+	Take part in our first chess tournament!<br><br>
+	The envisioned dates are on: 2017 <b>December 23 + 24</b> (Saturday + Sunday)
+        <ul>
+            <li>exact times will come after discussion, and ofc:
+            <li>there can also be set other/more dates if enough people vote for it.
+        </ul>
+
+
+
+<br><br>
+
+	We play on the lichess site:
+
+
+        <ul>
+            <li>Join our group first: <a href="https://lichess.org/team/tcct">TCCT</a> (The ChessCoin team)
+            <li>This chess site has e.g. 113k Blitz players this week (incl. GMs, LMs, FMs, IMs, ...)
+        </ul>
+
+	<br>
+	<br>
+	The <i>prize money</i> are your <b>donations</b> that are sent to this address, until December 22:
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CUxNLaWyjnXHMF3PfLoJXvfFXXzdcyJfT1
+	<br><br>
+	Sponsors will be listed here for their kind donations. Thank you!<br><br><br>
+
+	The rules:<br>
+        <ul>
+            <li>We play 3:0 games, that means: each player gets 3 minutes and no time increment. One tournament is set to 2h.
+            <li>The points from both days count: to motivate people joining, the final point table includes the points you made for both tournaments.<br>A win gives you 2 points, draw: 1 point.<br>There is also "berserk mode", and: <br>also when you win consecutive games you get more points (e.g. you have won 2 games which gave you 4 points. When you now win also the 3rd game you get 4 points, so in total: 8 points)
+	    <li>The top3 winners overall - from both days - get a prize (how much? only top3?)
+        </ul>
+
+	At first, I think, it is better to announce this tournament only in BitcoinTalk. We don't know yet how the chess sites react to "money", but in general:<br>
+	if we just use their sites for playing and make the prize distribution elsewhere, they can't complain.<br><br>
+
+	Keep in mind:<br>
+	what I wrote above is not the Holy Grail, and requires your feedback. We might iron out things more (e.g. dates/times; who gets how much prize, ...).<br>
+	Since it's our first tourney we'll make our experience and adjust - work in progress :-)
+	</p><br>
+
+        <h4>Where can I find block explorer?</h4>
+        <p>
+        <ul>
+            <li><a href="https://www.blockexperts.com/chess">BlockExperts</a>
+            <li><a href="http://cryptoguru.tk/Blocks/index.php?Currency=CHESS">Cryptoguru</a>
+            <li><a href="http://crypto4free.com/blockexplorers/chesscoin-explorer/">Crypto4free</a>
+        </ul>
+	</p><br>
+
+        <h4>Where can I find a faucet?</h4>
+        <p>
+        <ul>
+            <li><a href="http://crypto4free.com/faucets/chesscoin-faucet/">Crypto4free</a> (every hour 0.125 CHESS)
+            <li><a href="http://cryptoguru.tk/Faucet/index.php?Currency=CHESS">Cryptoguru</a>
+        </ul>
+	</p><br>
+
+        <h4>On which exchanges is ChessCoin listed?</h4>
+        <p>
+        <ul>
+            <li><a href="https://www.cryptopia.co.nz/Exchange/?market=CHESS_BTC">Cryptopia</a>
+            <li><a href="https://yobit.io/en/trade/CHESS/BTC">YoBit</a>
+            <li><a href="https://novaexchange.com/market/BTC_CHESS/">NovaExchange</a> (will close 2018-03-31)
+            <li><a href="https://www.coinexchange.io/market/CHESS/BTC">Coinexchange</a> (no deposits/withdrawals since 2017-10-23)
+        </ul>
+	</p><br>
+
+        <h4>Where is the old website?</h4>
+        <p>See <a href="http://web.archive.org/web/20170527174303/http://chesscoinpro.com/">here</a> a copy from 2017 May.<br><br>
+	Someone forgot to renew it and it got in other people's hands :-(<br>That is why now this website is hosted here on github, because:
+        <ul>
+            <li>it won't ever disappear again (needs no yearly renewal, ...)
+            <li>People see what code is run (since this site's code is hosted on github)
+            <li>Everyone can help update it (by submitting a pull request here)
+            <li>No downtimes (since github is a global player)
+        </ul>
+	</p>
+
+	<center><img src="images/chesscoin.jpg" alt="ChessCoin"></center>
+
+    </div>
+
+
+</div>
+
+<div class="footer">
+    This page was made by <a href="https://github.com/chess-fan">chess-fan</a> and <a href="AUTHORS">these</a> community members.
+</div>
+
+</body>
+</html>
