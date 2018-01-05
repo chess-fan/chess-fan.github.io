@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to my ChessCoin page!</title>
+    <meta name="description" content="Welcome to my ChessCoin page!">
+    <style>
+        /* BASE */
+
+        html { font-size:100%; }
+        body { padding: 40px 0 20px; margin: 0; font: 13px/1.333 "lucida grande", tahoma, sans-serif; color: #333; background: #fff;}
+
+        a, a:visited { color: #980905; }
+        a:hover, a:focus, a:active { text-decoration: none; }
+
+        h1 { margin: 0 0 0.5em; font-size: 28px;  font-weight: normal; }
+        h2 { margin: 0 0 0.75em; font-size: 15px; }
+        p { margin: 0 0 1.333em; }
+        em { font-style: italic; }
+        table { border-collapse: separate; border-spacing: 0; margin:  0; vertical-align: middle; }
+        th { font-weight: bold; }
+        th, td { padding: 5px 25px 5px 5px; text-align: left; vertical-align: middle; }
+        pre, code { font-family: monospace, sans-serif; font-size: 1em; color:#080; }
+        pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+        ul { list-style: square; margin: 1em 0 1em 0px; padding: 0; }
+
+        /* TEMPLATE */
+
+        .container { position:relative; overflow:hidden; max-width: 600px; _width: 600px; padding: 40px 60px; border: 1px solid #ccc; margin: 0 auto; background: #fff; }
+
+        .container pre,
+        .container .prettyprint { padding: 0; border: 0; margin: 0 0 20px; background: #fff; }
+
+        .ribbon { position: absolute; top: -1px; right: -1px; opacity: 0.9; }
+        .ribbon:hover, .ribbon:focus, .ribbon:active { opacity: 1; }
+        .ribbon img { display: block; border: 0; }
+
+        .header { padding-right: 80px; }
+        .header p { font-size: 18px; color: #808080; }
+
+        .section { margin: 40px 0 20px; }
+
+        .example { padding: 20px; border: 1px solid #ccc; margin: 10px -20px 20px; }
+        .example p { margin: 15px 0 0; }
+        .example p:first-child { margin: 0; }
+
+        .footer { margin: 20px 0 50px; font-size: 11px; color: #666; text-align: center; }
+        .footer a { color: #666;}
+
+        /* SMALL */
+
+        @media (max-width: 500px) {
+            body { padding: 0; }
+            .container { padding: 20px 30px; }
+            .footer { margin-bottom: 20px; }
+        }
+    </style>
+
+
+
+    <!-- prettyify -->
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/google/code-prettify/master/src/prettify.css">
+    <script src="https://raw.githubusercontent.com/google/code-prettify/master/src/prettify.js"></script>
+</head>
+
+<body onload="prettyPrint()">
+
+<div class="container">
+    <a class="ribbon" href="https://github.com/chess-fan/chess-fan.github.io" target="_blank"><img src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+    <div class="header">
+        <h1>Welcome to my ChessCoin blog!</h1>
+    </div>
+
+    <div class="section">
+
+	<p>You find here my new blog entries in 2018 for <a href="https://chess-coin.github.io">ChessCoin</a>.<br><br>
+	My time is as precious as yours: <br>
+	&nbsp;&nbsp;&nbsp;&nbsp;your <a href="#donate">donations</a> will show me that you think the same.
+
+
+	<center><img src="images/chesscoin2.png" alt="ChessCoin"></center>
+
+	</p>
+
+        <div class="example">
+            <pre class="prettyprint"><code>
+		<a href="#ex1">example</a><br>
+	</code></pre>
+
+        </div>
+    </div>
+
+	<br><br>
+    
+        <h2 id="ex1">example</h2>
+        <p>
+	bla bla
+	</p><br>
+
+
+
+</div>
+
+<div class="footer">
+    This page was made by <a href="https://github.com/chess-fan">chess-fan</a>.
+</div>
+
+</body>
+</html>
